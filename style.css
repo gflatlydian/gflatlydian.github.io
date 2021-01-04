@@ -1,0 +1,166 @@
+body {
+	background-color: #ffffff;
+	color: #333333;
+	font-family: 'Roboto';
+	font-size: 12pt;
+	padding: 0px 15% 0px 15%;
+}
+
+h1 {
+	font-family: 'Nunito Sans';
+	font-size: 36pt;
+	text-align: right;
+	line-height: 0;
+}
+
+h2 {
+	font-family: 'Nunito Sans';
+	font-size: 24pt;
+}
+
+.heading-text {
+	text-align: right;
+}
+
+.topbar {
+	display: float;
+	padding: 2px;
+	border: 0px 0px 0px 0px;
+	background-color: #333333;
+}
+
+.topbar a {
+	color: inherit;
+	font: inherit;
+	text-decoration: inherit;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: baseline;
+	flex: 1 0 1em;
+}
+
+.flex-menu {
+	display: flex;
+	font-family: 'Roboto Mono';
+	height: 2em;
+	background-color: #ffffff;
+	color: #333333;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid #333333;
+	flex: 1 0 auto;
+}
+
+.flex-menu a {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-cell {
+	display: flex;
+	width: 25%;
+	height: auto;
+	align-items: center;
+	justify-content: center;
+	align-text: center;
+	border: 15px solid #ffffff;
+	background-color: royalblue;
+}
+
+.flex-cell p {
+	color: #ffffff;
+}
+
+.change:hover {
+	background-color: #333333;
+	color: #ffffff;
+}
+
+.contact-form {
+	width: 80%;
+	margin: auto;
+}
+
+input[type=submit] {
+	display: block;
+	margin: auto;
+	margin-top: 1em;
+	font-family: 'Roboto Mono';
+	height: 2.7em;
+	width: 5.5em;
+	background-color: #ffffff;
+	color: #333333;
+	border: 2px solid #333333;
+}
+
+input[type=submit]:hover {
+	background-color: #333333;
+	color: #ffffff;
+	transition: 0.2s;
+}
+
+input[type=text], [type=email], textarea.message {
+	display: block;
+	font-family: Roboto;
+	width: 100%;
+	height: 2.7em;
+	background-color: #ffffff;
+	color: #333333;
+	border: 2px solid #333333;
+	padding: 3px;
+	margin: 2px;
+	box-sizing: border-box;
+	outline: none;
+}
+
+input[type=text]:focus,[type=email]:focus,textarea.message:focus {
+	border: 2px solid #888888;
+	transition: 0.2s;
+}
+
+input[type=text]:hover,[type=email]:hover,textarea.message:hover {
+	border: 2px solid #cccccc;
+	transition: 0.2s;
+}
+
+textarea.message {
+	text-align: left;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	vertical-align: middle;
+	transition: height 0.7s;
+}
+
+textarea.message:focus {
+	height: 24em;
+}
+
+label {
+	font-family: Nunito Sans;
+	font-weight: bold;
+	font-size: 11pt;
+}
+
+table.contact-table {
+	width: 100%;
+}
+
+td.contact-label {
+	width: auto;
+	padding-top: 0.5em;
+	padding-right: 10px;
+	text-align: right;
+	vertical-align: top;
+}
+
+td.contact-text {
+	width: 80%;
+}
